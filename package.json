@@ -13,12 +13,17 @@
   "scripts": {
     "dev:backend": "npm run dev -w packages/backend",
     "build:backend": "npm run build -w packages/backend",
-    "test": "vitest run"
+    "test": "vitest run",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\""
   },
   "keywords": [
     "authentication",
     "oauth",
     "typescript",
     "postgresql"
-  ]
-} 
+  ],
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}
