@@ -31,7 +31,7 @@ export function setupAuth() {
       async (
         accessToken: string,
         refreshToken: string,
-        profile: GitHubProfile & Partial<Pick<GithubUser, 'username' | 'displayName'>>,
+        profile: GitHubProfile,
         done: (err: Error | null, user?: any) => void
       ) => {
         try {

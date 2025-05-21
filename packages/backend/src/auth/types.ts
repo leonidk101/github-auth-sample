@@ -7,12 +7,4 @@ export interface GitHubProfile {
   displayName?: string;
   emails?: { value: string }[];
   photos?: { value: string }[];
-  
-  // GitHub-specific properties (for reference)
-  provider?: string;
-  _raw?: string;
-  _json?: any;
-  
-  // Any additional properties
-  [key: string]: any;
 } 
