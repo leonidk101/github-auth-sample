@@ -1,0 +1,30 @@
+# Build output
+dist
+build
+
+# Dependencies
+node_modules
+
+# Package files
+package-lock.json
+
+# Coverage and logs
+coverage
+.nyc_output
+logs
+*.log
+
+# Cache directories
+.turbo
+.cache
+
+# Generated types
+*.d.ts
+
+# Environment files
+.env*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
