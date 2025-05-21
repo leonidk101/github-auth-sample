@@ -1,29 +1,29 @@
 {
-  "name": "authentication-demo",
-  "version": "1.0.0",
-  "description": "Authentication system with OAuth and best practices",
-  "private": true,
-  "type": "module",
-  "engines": {
-    "node": ">=18.0.0"
-  },
-  "workspaces": [
-    "packages/*"
-  ],
-  "scripts": {
-    "dev:backend": "npm run dev -w packages/backend",
-    "build:backend": "npm run build -w packages/backend",
-    "test": "vitest run",
-    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
-    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\""
-  },
-  "keywords": [
-    "authentication",
-    "oauth",
-    "typescript",
-    "postgresql"
-  ],
-  "devDependencies": {
-    "prettier": "^3.5.3"
-  }
+	"name": "authentication-demo",
+	"version": "1.0.0",
+	"description": "Authentication system with OAuth and best practices",
+	"private": true,
+	"type": "module",
+	"engines": {
+		"node": ">=18.0.0"
+	},
+	"workspaces": [
+		"packages/*"
+	],
+	"scripts": {
+		"dev:backend": "npm run dev -w packages/backend",
+		"build:backend": "npm run build -w packages/backend",
+		"test": "vitest run",
+		"format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+		"format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\""
+	},
+	"keywords": [
+		"authentication",
+		"oauth",
+		"typescript",
+		"postgresql"
+	],
+	"devDependencies": {
+		"prettier": "^3.5.3"
+	}
 }

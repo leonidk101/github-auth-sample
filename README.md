@@ -69,4 +69,3 @@ A Node.js authentication system with OAuth (GitHub) integration and PostgreSQL d
 - Security headers with Helmet
 - TypeScript for type safety
 - OAuth 2.0 implementation
- 
